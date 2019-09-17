@@ -20,15 +20,25 @@ public class MiCalculadora {
  		a = teclado.nextInt();
  		System.out.println("Ingrese el segundo numero");
  		b = teclado.nextInt();
- 		if(opcion.equals(1)){
+ 		
+ 		
+ 		switch(opcion){
+ 		case 1:
  			resultado = a + b;
- 		}else if(opcion.equals(2)){
+ 	 		System.out.println("El resultado es " + resultado.toString());
+ 			break;
+ 		case 2:
  			resultado = a - b;
- 		}else if(opcion.equals(3)){
+ 	 		System.out.println("El resultado es " + resultado.toString());
+ 			break;
+ 		case 3:
 	 resultado = a * b;
- 		}else{
+		System.out.println("El resultado es " + resultado.toString());
+ 		break;
+ 		case 4:
  			resultado = a / b;
- 		}
+ 			
  		System.out.println("El resultado es " + resultado.toString());
+ 		
  	}
- }
+ }}
