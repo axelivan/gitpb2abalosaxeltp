@@ -1,0 +1,14 @@
+5a no ocurrió nada, se subió el archivo sin problemas porque clone el archivo 
+ya modificado, pero en caso de que no sea la última versión habría que actualizarlo
+con un git fetch origin y un git merge origin master, pero en caso de conflicto y
+tengamos que arreglarlo de forma manual tendremos que elegir con que parte de código
+quedarse o si se necesitan las dos copias y se elimina una de las dos versiones
+y modificamos el código commiteamos que existió un conflicto y ponemos lo que cambiamos
+
+
+5b) tiene que está bien commiteado y tener la última versión del proyecto
+
+5c)
+se podría clonar el repositorio, vincularlo y luego modificarlo, agregar,
+ commitear y pushear
+6) Se creo una nueva rama y me movio el head a la nueva rama
