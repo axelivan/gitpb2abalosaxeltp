@@ -15,7 +15,8 @@ public class MiCalculadora {
  		opcion = teclado.nextInt();
  	}
  	while (opcion < 1 && opcion > 4);
- 		
+ 		 
+ 	
  		System.out.println("Ingrese el primer numero");
  		a = teclado.nextInt();
  		System.out.println("Ingrese el segundo numero");
