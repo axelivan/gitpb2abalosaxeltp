@@ -12,3 +12,14 @@ y modificamos el código commiteamos que existió un conflicto y ponemos lo que 
 se podría clonar el repositorio, vincularlo y luego modificarlo, agregar,
  commitear y pushear
 6) Se creo una nueva rama y me movio el head a la nueva rama
+
+9)a)me tiro un error al haber un doble branch(se me complico)  
+b)ramificar una sola vez o ir borrando ramificaciones que ya fueron fucionadas
+10)git flow es una forma de trabajar por ramificacion, cada rama tiene un papel, 
+y se interactua por ramas para no alterar la rama master
+
+Nos ayuda a trabajar en equipo ya que las tareas se dividen en ramas y cada una tiene
+un objetivo en concreto y al final de todo se mergea y queda el proyecto final
+
+si se relaciona en que se podria usar las ramas de cada integrante para dividir las tareas
+lo mergearia con develop, borraria los branchs de los integrantes del grupo y mergearia devuelta con master
